@@ -1,0 +1,16 @@
+/* Place responsive styles in this block for bonus points */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	
+}
+
+.gallery-wrap { margin: 0 auto; overflow: hidden; width: 732px; }
+.gallery { position: relative; left: 0; top: 0; }
+.gallery__item { float: left; list-style: none; margin-right: 20px; }
+.gallery__img { display: block; border: 4px solid #40331b; height: 190px; width: 220px; }
+
+.gallery__controls { margin-top: 10px; }
+.gallery__controls-prev { cursor: pointer; float: left; }
+.gallery__controls-next { cursor: pointer; float: right; }
+
